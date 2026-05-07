@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cralgarrobo.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CRAlgarrobo</name>
+    <description>
+        Aplicacion CR Algarrobo.
+    </description>
+    <author email="crpalgarrobo@hotmail.com">
+        Comunidad de Regantes de Algarrobo
+    </author>
+    <content src="https://www.cralgarrobo.com/acceso" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <!-- Limpieza de seguridad y refresco -->
+    <preference name="ClearStorageOnExit" value="true" />
+    <preference name="ClearCache" value="true" />
+</widget>
